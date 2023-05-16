@@ -1,1 +1,1 @@
-console.log("Your index.js file is loaded coorectly!");
+console.log("Your index.js file is loaded correctly!");
