@@ -6,12 +6,13 @@ console.log("Your index.js file is loaded correctly!");
 
 // Changes nav. .li tags color on hover //
 
-    $('#A').mouseenter(function(){
-        $(this).css('background-color', '#f7f5dc');
+    $('#A,#B,#C,#D').mouseenter(function(){
+         $(this).css('background-color', '#f7f5dc');
+         console.log("this is now yellow");
     });
   
    
-    $('#B').mouseenter(function(){
+   /*  /$('#B').mouseenter(function(){
         $(this).css('background-color', '#f7f5dc');
     });
 
@@ -23,12 +24,13 @@ console.log("Your index.js file is loaded correctly!");
 
     $('#D').mouseenter(function(){
         $(this).css('background-color', '#f7f5dc');
-    });
+    }); */
 
     // changes the nav. .li tags color back to original//
    
-    $('#A').mouseout(function() {
-        $(this).css('originalStyles');
+    $('#A,#B,#C,#D').mouseleave(function() {
+        $(this).css('background-color','rgba(208, 229, 248, 0.849');
+        console.log("this is now blue")
     });
    
     //scroll behavior //
