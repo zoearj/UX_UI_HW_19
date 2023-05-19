@@ -33,5 +33,5 @@ console.log("Your index.js file is loaded correctly!");
         console.log("this is now blue")
     });
    
-    //scroll behavior //
+    //scroll behavior is my next step//
     });
