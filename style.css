@@ -7,7 +7,11 @@ li.inline-block{
     vertical-align: top;
 }
 li{
-    color:coral;
+    background-color:rgba(208, 229, 248, 0.849);
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
+    margin-right:5%;
 }
 .logo{
     width:23%;
